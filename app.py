@@ -5,8 +5,7 @@ from flask import Flask,request,jsonify,render_template
 from sklearn.preprocessing import StandardScaler
 
 
-application=Flask(__name__)
-app=application
+app=Flask(__name__)
 
 
 ##Import ridge regression and standard scaler pickle files
